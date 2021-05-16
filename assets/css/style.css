@@ -29,12 +29,8 @@ p{
 img{
     max-width: 500px;
     max-height: 500px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-left: 725px;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    display: block;
+    margin: 1px auto;
     border-radius: 3rem 3rem 3rem 3rem;
     
      
