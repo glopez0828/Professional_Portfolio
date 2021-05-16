@@ -11,7 +11,12 @@ h2{
     text-align: center;
 }
 
-
+h4{
+    color:rgb(179, 192, 219);
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
 p{
     color: white;
     margin-left: 50px;
@@ -27,7 +32,7 @@ img{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-left: 450px;
+    margin-left: 725px;
     margin-top: 50px;
     margin-bottom: 0px;
     border-radius: 3rem 3rem 3rem 3rem;
@@ -62,18 +67,37 @@ img{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 992px) {
+/*made profile pic adjust to mobile*/
+
+@media screen and (max-width: 1140px) {
     header {
       background-color: darkolivegreen;
+    }
+    img {
+        margin: 0px;
+        max-height: 400px;
+        max-width: 400px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .navbar {
-      background-color: darkslateblue;
+    img {
+      margin: 0px;
+      max-height: 200px;
+      max-width: 200px;
     }
   }
   
   @media screen and (max-width: 500px) {
-      
-  }
+    img {
+        margin: 0px;
+        max-height: 100px;
+        max-width: 100px;
+    }
+    a#navbarDropdownMenuLink.nav-link.dropdown-toggle {
+        height:50px;
+        flex-direction: column;
+        text-align: right;
+    }
+
+}
