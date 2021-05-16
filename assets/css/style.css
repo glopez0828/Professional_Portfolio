@@ -1,0 +1,79 @@
+body {
+    background: rgb(4, 4, 70);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2{
+    margin-left: 50px;
+    color: rgb(127, 132, 143);
+    text-align: center;
+}
+
+
+p{
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+}
+.art {
+    height: 50px;
+    width: 100px;
+}
+img{
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-radius: 3rem 3rem 3rem 3rem;
+    
+     
+}
+.dropdown-menu {
+    background: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.nav-item {
+    border-color:rgb(4, 4, 70);
+    margin: 0%;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: blue;
+}
+
+.footer{
+    margin-left: 30px;
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background-color: darkolivegreen;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      background-color: darkslateblue;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+      
+  }
